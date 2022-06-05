@@ -1,1 +1,17 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bug_report>
+<bug_report>
+  <ID>BR-001</ID>
+  <Name>ошибка 404 при поптытке открыть http://www......</Name>
+  <Steps>
+    <s1.>пройти по адресу http://www.......</s1.>
+    <s2.>зарегистрироваться по своему login и password</s2.>
+    <s3.>войти в систему</s3.>
+    </Steps>
+  <Expected_result>
+    <s1.>открыта страница http://www.......</s1.>
+    <s2.>система предлагает затегистрироваться по login и password</s2.>
+    <s3.>пользователь успешно авторизован</s3.>
+  </Expected_result>
+  <Actual_result>при попытке пройти по адресу http://www...... система выдает ошибку 404</Actual_result>
+</bug_report>
